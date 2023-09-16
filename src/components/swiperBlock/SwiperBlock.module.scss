@@ -1,0 +1,64 @@
+.nameBike {
+    position: absolute;
+    padding: 6px 12px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border-radius: 100px;
+    background: rgba(0, 0, 0, 0.5);
+    right: 8px;
+    top: 8px;
+}
+
+.container {
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%;
+    position: relative;
+    border-radius: 8px;
+    transition: none;
+
+    img,
+    svg {
+        width: 100%;
+        border-radius: 8px;
+        object-fit: cover;
+    }
+}
+
+.block {
+    position: relative;
+
+    button {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
+        background: rgba(0, 0, 0, 0.4);
+    }
+
+    .next {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 8px;
+        z-index: 1001;
+
+        svg {
+            transform: translateX(1px);
+        }
+    }
+
+    .prev {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 8px;
+        z-index: 1001;
+    }
+}
