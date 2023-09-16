@@ -18,25 +18,23 @@
     video {
         width: 100%;
         max-width: 500px;
-
     }
 }
 
 .title {
     text-align: center;
-    margin-top: 22px;
-    
+    margin-top: 36px;
 
     p {
-        font-size: 20px;
+        font-size: 32px;
         font-weight: 600;
         color: #202020;
-
     }
 
     p:last-child {
-        color:  #B7B7B7;
-        font-size: 14px;
+        color: #b7b7b7;
+        font-size: 20px;
         font-weight: 500;
+        margin: 5px 0 0 0;
     }
 }
